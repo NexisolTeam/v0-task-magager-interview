@@ -1,30 +1,74 @@
-# to-do-interview
+# Task Manager Interview Project
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+This is a simple task manager application built with Next.js and React. The project is designed as an interview exercise for developers to demonstrate their understanding of React fundamentals.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/nexisols-projects/v0-to-do-interview)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/WRQcoPaBKC4)
+## Project Overview
 
-## Overview
+The Task Manager app allows users to:
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks by status (all, active, completed)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Interview Instructions
 
-## Deployment
+As an interviewee, your task is to complete the 5 TODO items in the codebase. These tasks are designed to test your understanding of React, state management, and basic web development concepts.
 
-Your project is live at:
+### Setup Instructions
 
-**[https://vercel.com/nexisols-projects/v0-to-do-interview](https://vercel.com/nexisols-projects/v0-to-do-interview)**
+1. Clone this repository
+2. Install dependencies with `npm install`
+3. Run the development server with `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Build your app
+### TODO Items
 
-Continue building your app on:
+You need to implement the following features:
 
-**[https://v0.dev/chat/projects/WRQcoPaBKC4](https://v0.dev/chat/projects/WRQcoPaBKC4)**
+1. **TODO #1: Add an "important" property to tasks**
+   - Add an "important" boolean property to the Task type
+   - Update the UI to show important tasks differently (e.g., with a star icon or different color)
+   - Add a way for users to toggle the important status of a task
 
-## How It Works
+2. **TODO #2: Implement a function to toggle the "important" status**
+   - Create a function that toggles the "important" property of a task
+   - Connect this function to a UI element (like a star button)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+3. **TODO #3: Implement localStorage persistence**
+   - Save tasks to localStorage whenever they change
+   - Load tasks from localStorage when the component mounts
+   - Make sure the app doesn't crash if localStorage is empty
+
+4. **TODO #4: Add form validation**
+   - Prevent users from adding empty tasks
+   - Display an error message when a user tries to add an empty task
+   - Clear the error message when the input becomes valid
+
+5. **TODO #5: Implement a "Clear Completed" button**
+   - Add a button to remove all completed tasks
+   - Implement the function to filter out completed tasks
+   - Update the UI to include this new button
+
+### Evaluation Criteria
+
+Your implementation will be evaluated based on:
+- Correctness: Does each feature work as expected?
+- Code quality: Is your code clean, well-organized, and easy to understand?
+- Problem-solving: How did you approach each problem?
+- Attention to detail: Did you handle edge cases and potential errors?
+
+### Tips
+
+- Read through the entire codebase before starting to understand how everything works together
+- Test each feature thoroughly after implementing it
+- Don't hesitate to add comments explaining your thought process
+- Focus on functionality first, then improve the UI if time permits
+
+## Submission
+
+When you've completed all the TODO items, please:
+1. Make sure all features work correctly
+2. Explain your implementation decisions
+3. Be prepared to discuss your code and any challenges you faced
+
+Good luck!
