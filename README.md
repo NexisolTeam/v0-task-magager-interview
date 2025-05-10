@@ -17,8 +17,8 @@ As an interviewee, your task is to complete the 5 TODO items in the codebase. Th
 ### Setup Instructions
 
 1. Clone this repository
-2. Install dependencies with `npm install`
-3. Run the development server with `npm run dev`
+2. Install dependencies with `pnpm install`
+3. Run the development server with `pnpm dev`
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ### TODO Items
